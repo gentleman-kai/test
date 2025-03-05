@@ -54,6 +54,12 @@
 				pano.readConfigUrlAsync("pano.xml");
 			});
 		</script>
+		<script>
+			// 1秒后自动播放
+			setTimeout(() => {
+			    document.getElementsByClassName("ggmedia")[0].play();
+			}, 1000);
+		</script>
 		<noscript>
 			<p><b>Please enable Javascript!</b></p>
 		</noscript>
